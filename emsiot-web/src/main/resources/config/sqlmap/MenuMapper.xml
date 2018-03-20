@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.shfb.rfid.manage.dao.MenuMapper" >
-  <resultMap id="BaseResultMap" type="com.shfb.rfid.manage.entity.Menu" >
+<mapper namespace="com.ems.iot.manage.dao.MenuMapper" >
+  <resultMap id="BaseResultMap" type="com.ems.iot.manage.entity.Menu" >
     <id column="menu_id" property="menu_id" jdbcType="INTEGER" />
     <result column="menu_name" property="menu_name" jdbcType="VARCHAR" />
     <result column="menu_url" property="menu_url" jdbcType="VARCHAR" />
@@ -19,13 +19,13 @@
     delete from menu
     where menu_id = #{menu_id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.shfb.rfid.manage.entity.Menu" >
+  <insert id="insert" parameterType="com.ems.iot.manage.entity.Menu" >
     insert into menu (menu_id, menu_name, menu_url
       )
     values (#{menu_id,jdbcType=INTEGER}, #{menu_name,jdbcType=VARCHAR}, #{menu_url,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.shfb.rfid.manage.entity.Menu" >
+  <insert id="insertSelective" parameterType="com.ems.iot.manage.entity.Menu" >
     insert into menu
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="menu_id != null" >
@@ -50,7 +50,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.shfb.rfid.manage.entity.Menu" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.ems.iot.manage.entity.Menu" >
     update menu
     <set >
       <if test="menu_name != null" >
@@ -62,7 +62,7 @@
     </set>
     where menu_id = #{menu_id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.shfb.rfid.manage.entity.Menu" >
+  <update id="updateByPrimaryKey" parameterType="com.ems.iot.manage.entity.Menu" >
     update menu
     set menu_name = #{menu_name,jdbcType=VARCHAR},
       menu_url = #{menu_url,jdbcType=VARCHAR}

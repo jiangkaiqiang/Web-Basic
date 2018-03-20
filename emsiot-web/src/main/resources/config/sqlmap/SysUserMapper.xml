@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.shfb.rfid.manage.dao.SysUserMapper">
+<mapper namespace="com.ems.iot.manage.dao.SysUserMapper">
 	<insert id="insert" parameterType="SysUser">
 		insert into sys_user (user_name, user_role_id,
 		login_time, password, user_tel,

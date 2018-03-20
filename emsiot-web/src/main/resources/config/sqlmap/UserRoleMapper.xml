@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.shfb.rfid.manage.dao.UserRoleMapper" >
-  <resultMap id="BaseResultMap" type="com.shfb.rfid.manage.entity.UserRole" >
+<mapper namespace="com.ems.iot.manage.dao.UserRoleMapper" >
+  <resultMap id="BaseResultMap" type="com.ems.iot.manage.entity.UserRole" >
     <id column="user_role_id" property="user_role_id" jdbcType="INTEGER" />
     <result column="user_role_name" property="user_role_name" jdbcType="VARCHAR" />
     <result column="menu_ids" property="menu_ids" jdbcType="VARCHAR" />
@@ -19,13 +19,13 @@
     delete from user_role
     where user_role_id = #{user_role_id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.shfb.rfid.manage.entity.UserRole" >
+  <insert id="insert" parameterType="com.ems.iot.manage.entity.UserRole" >
     insert into user_role (user_role_name, menu_ids,creater,createTime,user_role_note
       )
     values (#{user_role_name,jdbcType=VARCHAR}, #{menu_ids,jdbcType=VARCHAR},#{creater,jdbcType=VARCHAR}, now(),#{user_role_note,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.shfb.rfid.manage.entity.UserRole" >
+  <insert id="insertSelective" parameterType="com.ems.iot.manage.entity.UserRole" >
     insert into user_role
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="user_role_id != null" >
@@ -50,7 +50,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.shfb.rfid.manage.entity.UserRole" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.ems.iot.manage.entity.UserRole" >
     update user_role
     <set >
       <if test="user_role_name != null" >
@@ -68,13 +68,13 @@
     </set>
     where user_role_id = #{user_role_id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.shfb.rfid.manage.entity.UserRole" >
+  <update id="updateByPrimaryKey" parameterType="com.ems.iot.manage.entity.UserRole" >
     update user_role
     set user_role_name = #{user_role_name,jdbcType=VARCHAR},
       menu_ids = #{menu_ids,jdbcType=VARCHAR}
     where user_role_id = #{user_role_id,jdbcType=INTEGER}
   </update>
-  <select id="findAllUserRole" parameterType="int" resultType="com.shfb.rfid.manage.entity.UserRole">
+  <select id="findAllUserRole" parameterType="int" resultType="com.ems.iot.manage.entity.UserRole">
 		SELECT * FROM `user_role`
 		<where>
 			<if test="startTime!=null and startTime!=''">
@@ -89,7 +89,7 @@
 		</where>
 		order by `createTime` desc
 	</select>
-	<select id="findAllUserRoleList" parameterType="int" resultType="com.shfb.rfid.manage.entity.UserRole">
+	<select id="findAllUserRoleList" parameterType="int" resultType="com.ems.iot.manage.entity.UserRole">
 		SELECT * FROM `user_role` order by `createTime` asc
 	</select>
 </mapper>

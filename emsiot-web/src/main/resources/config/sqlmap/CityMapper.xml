@@ -2,14 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.shfb.rfid.manage.dao.CityMapper">
+<mapper namespace="com.ems.iot.manage.dao.CityMapper">
 
-    <select id="findCitysByProvinceId" parameterType="map" resultType="com.shfb.rfid.manage.entity.CityInfo">
+    <select id="findCitysByProvinceId" parameterType="map" resultType="com.ems.iot.manage.entity.CityInfo">
         SELECT *
         FROM `city_info` WHERE `ci_province` = #{provinceID}
     </select>
     
-    <select id="findCityById" parameterType="map" resultType="com.shfb.rfid.manage.entity.CityInfo">
+    <select id="findCityById" parameterType="map" resultType="com.ems.iot.manage.entity.CityInfo">
         SELECT *
         FROM `city_info` WHERE `ci_id` = #{CityID}
     </select>
@@ -29,7 +29,7 @@
         FROM `province_info` WHERE `pr_province` like "%"#{provinceName}"%"
     </select>
 
-    <select id="findCityByNameAndProvinceId" parameterType="map" resultType="com.shfb.rfid.manage.entity.CityInfo">
+    <select id="findCityByNameAndProvinceId" parameterType="map" resultType="com.ems.iot.manage.entity.CityInfo">
         SELECT *
         FROM `city_info` 
         <where> 

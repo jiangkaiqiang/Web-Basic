@@ -115,18 +115,6 @@ coldWeb.controller('userRoleManage', function ($rootScope, $scope, $state, $cook
             alert("请填写用户角色名称!");
         }
     }
-   /* $scope.goDetail = function(projectID) {
-    	$http.get('/i/project/findProjectByID', {
-            params: {
-                "projectID": projectID
-            }
-        }).success(function(data){
-		    if(data!=null&&data.project.pro_id!=undefined){
-				 $scope.projectDetail = data;
-		    }
-	     });
-	};*/
-	
 	 $scope.goUpdate = function(userRoleID) {
 	    	$http.get('/i/userrole/findUserRoleByID', {
 	            params: {

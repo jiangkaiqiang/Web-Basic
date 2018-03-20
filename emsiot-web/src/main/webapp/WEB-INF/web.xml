@@ -112,7 +112,7 @@
 
 	    <filter-name>cors</filter-name>
 
-	    <filter-class>com.shfb.rfid.manage.filter.CrossInterceptor</filter-class>
+	    <filter-class>com.ems.iot.manage.filter.CrossInterceptor</filter-class>
 
 	</filter>
 

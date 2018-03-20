@@ -62,19 +62,6 @@ coldWeb.controller('userManage', function ($rootScope, $scope, $state, $cookies,
 	        }
 	        return true;
 	}
-	
-	
-	 // 获取构件厂
-    $http.get('/i/compfactory/findCompFactorys').success(function (data) {
-        $scope.compfactorys = data;
-        $scope.addcompfactoryid = data[0].comp_factory_id;
-    });
-    
-    // 获取项目
-    $http.get('/i/project/findAllProject').success(function (data) {
-        $scope.projects = data;
-        $scope.addProjectid = data[0].pro_id;
-    });
     
     // 获取角色
     $http.get('/i/userrole/findAllUserRole').success(function (data) {

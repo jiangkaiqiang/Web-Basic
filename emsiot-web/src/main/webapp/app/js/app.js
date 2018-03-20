@@ -1,6 +1,5 @@
 var coldWeb = angular.module('ColdWeb', ['ui.bootstrap', 'ui.router', 'ui.checkbox',
     'ngCookies', 'xeditable', 'isteven-multi-select', 'angucomplete', 'angular-table','ngFileUpload','remoteValidation']);
-//coldWeb.constant('coldWebUrl', 'http://www.smartcold.org.cn/i/');
 angular.element(document).ready(function ($ngCookies, $http, $rootScope) {
 	angular.bootstrap(document, ['ColdWeb']);
 });
@@ -42,53 +41,7 @@ coldWeb.factory('adminService',['$rootScope','$http', function($rootScope,$http)
 }])
 
 coldWeb.config(function ($stateProvider, $urlRouterProvider) {
-	/* $.ajax({type: "GET",cache: false,dataType: 'json',url: '/i/user/findUser'}).success(function(data){
-	      	var user = data;
-	      	if(user != null && user.user_id != 0 && user.user_id!=undefined){
-	        $.get("/i/userrole/findUserRoleByUserID", {userID: user.user_id},function(data){
-	        	if(data!=null&&data.userRole.user_role_id!=undefined){
-      				var adminRoleDto = data;
-			    	if(adminRoleDto.overView){
-			 		   $urlRouterProvider.otherwise("/home");
-			 	}
-			 	else{
-			 		if(adminRoleDto.compManage || adminRoleDto.processManage){
-			 			$urlRouterProvider.otherwise("/componentManage");
-			 		}
-			 		else{
-			 			if(adminRoleDto.projectManage){
-			 				$urlRouterProvider.otherwise("/projectManage");
-			 			}
-			 			else{
-			 				if(adminRoleDto.compFactoryManage){
-			 				   $urlRouterProvider.otherwise("/compFactoryManage");
-			 				}
-			 				else{
-			 					 if(adminRoleDto.userManage || adminRoleDto.roleManage || adminRoleDto.logManage){
-			 						   $urlRouterProvider.otherwise("/userManage");
-			 					 }
-			 					 else{
-			 						 if(adminRoleDto.productManage){
-			 							 $urlRouterProvider.otherwise("/productManage");
-			 						 }
-			 						 else{
-			 							 $urlRouterProvider.otherwise("/personalSpace");
-			 						 }
-			 					 }
-			 				}
-			 			}
-			 		}
-			 	}
-			    }
-	      	 });
-	      	}
-	      	else{*/
-	      		 $urlRouterProvider.otherwise("/home");
-	      /*	}
-	      });
-*/
- 
-    //index
+	$urlRouterProvider.otherwise("/home");
     $stateProvider.state('home', {
         url: '/home',
         controller: 'home',
@@ -97,18 +50,6 @@ coldWeb.config(function ($stateProvider, $urlRouterProvider) {
         url: '/userManage',
         controller: 'userManage',
         templateUrl: 'app/template/userManage.html'
-    }).state('projectManage', {
-        url: '/projectManage',
-        controller: 'projectManage',
-        templateUrl: 'app/template/projectManage.html'
-    }).state('compFactoryManage', {
-        url: '/compFactoryManage',
-        controller: 'compFactoryManage',
-        templateUrl: 'app/template/compFactoryManage.html'
-    }).state('componentManage', {
-        url: '/componentManage',
-        controller: 'componentManage',
-        templateUrl: 'app/template/componentManage.html'
     }).state('operationLog', {
         url: '/operationLog',
         controller: 'operationLog',
@@ -117,21 +58,9 @@ coldWeb.config(function ($stateProvider, $urlRouterProvider) {
         url: '/personalSpace',
         controller: 'personalSpace',
         templateUrl: 'app/template/personalSpace.html'
-    }).state('componentInfo', {
-        url: '/componentInfo',
-        controller: 'componentInfo',
-        templateUrl: 'app/template/componentInfo.html'
-    }).state('componentOrder', {
-        url: '/componentOrder',
-        controller: 'componentOrder',
-        templateUrl: 'app/template/componentOrder.html'
     }).state('userRoleManage', {
         url: '/userRoleManage',
         controller: 'userRoleManage',
         templateUrl: 'app/template/userRoleManage.html'
-    }).state('productManage', {
-        url: '/productManage',
-        controller: 'productManage',
-        templateUrl: 'app/template/productManage.html'
     });
 });

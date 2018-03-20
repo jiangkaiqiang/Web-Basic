@@ -13,8 +13,8 @@
            http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd">
 
 	<!-- 设置使用注解的类所在的jar包 -->
-	<context:component-scan base-package="com.shfb.rfid.manage.controller"></context:component-scan>
-	<context:component-scan base-package="com.shfb.rfid.manage.controllerApp"></context:component-scan>
+	<context:component-scan base-package="com.ems.iot.manage.controller"></context:component-scan>
+	<context:component-scan base-package="com.ems.iot.manage.controllerApp"></context:component-scan>
 	<!-- enable autowire --> 
 	<context:annotation-config />
 	<!-- 默认的注解映射的支持 -->  
@@ -22,27 +22,23 @@
 	<mvc:interceptors>
 		 <mvc:interceptor>
 			<mvc:mapping path="/project/*"/>
-			<bean class="com.shfb.rfid.manage.intercepter.ProjectLogInterceptor"/>
+			<bean class="com.ems.iot.manage.intercepter.ProjectLogInterceptor"/>
 		</mvc:interceptor>
 		<mvc:interceptor>
 			<mvc:mapping path="/compfactory/*"/>
-			<bean class="com.shfb.rfid.manage.intercepter.CompFactoryLogInterceptor"/>
+			<bean class="com.ems.iot.manage.intercepter.CompFactoryLogInterceptor"/>
 		</mvc:interceptor>
 		<mvc:interceptor>
 			<mvc:mapping path="/component/*"/>
-			<bean class="com.shfb.rfid.manage.intercepter.ComponentLogInterceptor"/>
+			<bean class="com.ems.iot.manage.intercepter.ComponentLogInterceptor"/>
 		</mvc:interceptor>
 		<mvc:interceptor>
 			<mvc:mapping path="/componentOrder/*"/>
-			<bean class="com.shfb.rfid.manage.intercepter.CompOrderLogInterceptor"/>
+			<bean class="com.ems.iot.manage.intercepter.CompOrderLogInterceptor"/>
 		</mvc:interceptor>
-		<!-- <mvc:interceptor>
-			<mvc:mapping path="/user/*"/>
-			<bean class="com.shfb.rfid.manage.intercepter.UserLogInterceptor"/>
-		</mvc:interceptor> -->
 		<mvc:interceptor>
 			<mvc:mapping path="/userrole/*"/>
-			<bean class="com.shfb.rfid.manage.intercepter.UserRoleLogInterceptor"/>
+			<bean class="com.ems.iot.manage.intercepter.UserRoleLogInterceptor"/>
 		</mvc:interceptor>
 	</mvc:interceptors>
 
