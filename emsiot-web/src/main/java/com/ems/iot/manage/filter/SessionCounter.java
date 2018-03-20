@@ -7,10 +7,12 @@ import javax.servlet.http.HttpSessionListener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 /**
- * session 监听
- * @author Administrator
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:41:30  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class SessionCounter implements HttpSessionListener {
 	private static final Logger log = LoggerFactory.getLogger(SessionCounter.class);

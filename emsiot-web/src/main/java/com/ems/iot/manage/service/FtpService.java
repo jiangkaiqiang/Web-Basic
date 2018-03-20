@@ -4,6 +4,12 @@ import java.util.List;
 
 import com.ems.iot.manage.dto.UploadFileEntity;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:44:24  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public interface FtpService {
 
 	//public final static String HOST = "10.25.192.102";

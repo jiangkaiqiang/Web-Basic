@@ -20,22 +20,6 @@
 	<!-- 默认的注解映射的支持 -->  
 	<mvc:annotation-driven />
 	<mvc:interceptors>
-		 <mvc:interceptor>
-			<mvc:mapping path="/project/*"/>
-			<bean class="com.ems.iot.manage.intercepter.ProjectLogInterceptor"/>
-		</mvc:interceptor>
-		<mvc:interceptor>
-			<mvc:mapping path="/compfactory/*"/>
-			<bean class="com.ems.iot.manage.intercepter.CompFactoryLogInterceptor"/>
-		</mvc:interceptor>
-		<mvc:interceptor>
-			<mvc:mapping path="/component/*"/>
-			<bean class="com.ems.iot.manage.intercepter.ComponentLogInterceptor"/>
-		</mvc:interceptor>
-		<mvc:interceptor>
-			<mvc:mapping path="/componentOrder/*"/>
-			<bean class="com.ems.iot.manage.intercepter.CompOrderLogInterceptor"/>
-		</mvc:interceptor>
 		<mvc:interceptor>
 			<mvc:mapping path="/userrole/*"/>
 			<bean class="com.ems.iot.manage.intercepter.UserRoleLogInterceptor"/>

@@ -16,9 +16,10 @@ import com.ems.iot.manage.dto.UploadFileEntity;
 import com.ems.iot.manage.service.FtpService;
 
 /**
- * @author jiangkaiqiang
- * @date 2016-6-7 下午8:16:03
- * @Description: implement Ftp Service
+ * @author Barry
+ * @date 2018年3月20日下午3:44:59  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 @Service
 public class FtpServiceImpl implements FtpService {

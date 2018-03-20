@@ -1,11 +1,12 @@
 package com.ems.iot.manage.entity;
 
 import java.util.Date;
+
 /**
- * 用户实体类
- * @author jiangkaiqiang
- * @version 创建时间：2016-10-21 下午1:52:37 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:38:21  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class SysUser {
 	private Integer user_id;

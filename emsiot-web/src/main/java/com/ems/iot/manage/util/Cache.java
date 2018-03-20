@@ -1,5 +1,11 @@
 package com.ems.iot.manage.util;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:45:18  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class Cache {
     private String key; 
     private Object value; 

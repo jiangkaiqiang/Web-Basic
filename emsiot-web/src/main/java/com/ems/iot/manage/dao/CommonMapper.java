@@ -7,9 +7,10 @@ import java.util.Map;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * 工具类：提供公共组件数据
- * @author maqiang
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:33:48  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public interface CommonMapper {
 	

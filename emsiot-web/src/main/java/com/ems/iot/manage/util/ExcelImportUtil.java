@@ -24,12 +24,11 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.document.AbstractExcelView;
 
-
-
 /**
- * excel导入导出
- * @author 远扬
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:45:37  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class ExcelImportUtil extends AbstractExcelView{
 	

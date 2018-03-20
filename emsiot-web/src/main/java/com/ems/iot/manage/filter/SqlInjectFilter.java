@@ -16,10 +16,13 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse; 
 import javax.servlet.http.HttpServletRequest; 
 import javax.servlet.http.HttpServletResponse; 
+
 /**
- * 防止sql注入
- * 
- */ 
+ * @author Barry
+ * @date 2018年3月20日下午3:41:36  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class SqlInjectFilter implements Filter { 
      
 	private static String[] inj_stra;

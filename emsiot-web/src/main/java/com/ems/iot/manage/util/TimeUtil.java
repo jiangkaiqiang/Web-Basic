@@ -2,16 +2,17 @@ package com.ems.iot.manage.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 /**
- * Created by sunqiunian on 15/11/17.
+ * @author Barry
+ * @date 2018年3月20日下午3:46:46  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class TimeUtil {
 

@@ -11,6 +11,12 @@ import java.util.Map;
 
 import com.ems.iot.manage.service.base.HttpService;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:44:35  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class HttpServiceImpl implements HttpService {
 
 	@Override

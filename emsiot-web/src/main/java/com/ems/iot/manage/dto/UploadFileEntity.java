@@ -1,11 +1,11 @@
 package com.ems.iot.manage.dto;
 
 import org.springframework.web.multipart.MultipartFile;
-
 /**
- * @author jiangkaiqiang
- * @date 2016-6-7 下午8:10:02
- * @Description: UploadFileEntity,used to upload file
+ * @author Barry
+ * @date 2018年3月20日下午3:37:19  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class UploadFileEntity {
 	private String name;// file name-->FTP client

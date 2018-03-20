@@ -1,22 +1,20 @@
 package com.ems.iot.manage.controller;
 
 import java.io.UnsupportedEncodingException;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import com.ems.iot.manage.dao.OperationLogMapper;
 import com.ems.iot.manage.entity.OperationLog;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 /**
- * 操作日志controller
- * @author jiangkaiqiang
- * @version 创建时间：2017-5-26 下午2:42:18 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:32:54  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 @Controller
 @RequestMapping(value = "/operationLog")

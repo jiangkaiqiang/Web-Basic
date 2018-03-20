@@ -1,9 +1,10 @@
 package com.ems.iot.manage.entity;
+
 /**
- * 省份实体类
- * @author jiangkaiqiang
- * @version 创建时间：2016-10-24 下午9:50:33 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:38:11  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class ProvinceInfo {
 	private Integer pr_id;

@@ -9,9 +9,10 @@ import org.springframework.stereotype.Service;
 import com.ems.iot.manage.dao.CommonMapper;
 import com.ems.iot.manage.service.CommonService;
 /**
- * 
- * @author MaQiang
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:44:47  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 @Service("commonService")
 public class CommonServiceImpl implements CommonService {

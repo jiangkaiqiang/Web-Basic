@@ -9,9 +9,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.filter.OncePerRequestFilter;
 /**
- * 支持springmvc跨域
- * @author Administrator
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:41:22  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class CrossInterceptor extends OncePerRequestFilter {
 	

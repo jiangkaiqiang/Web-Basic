@@ -16,10 +16,10 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * 用户切取对于用户角色的操作日志
- * @author jiangkaiqiang
- * @version 创建时间：2017-6-2 下午2:57:30 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:43:54  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class UserRoleLogInterceptor implements HandlerInterceptor{
 

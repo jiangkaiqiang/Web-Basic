@@ -1,9 +1,12 @@
-
 package com.ems.iot.manage.util;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:47:09  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class VerifyUtil {
 	static boolean flag = false;
 	static String regex = "";

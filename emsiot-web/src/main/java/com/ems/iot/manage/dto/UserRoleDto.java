@@ -2,6 +2,12 @@ package com.ems.iot.manage.dto;
 
 import com.ems.iot.manage.entity.UserRole;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:37:25  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class UserRoleDto {
 	private UserRole userRole;
 	

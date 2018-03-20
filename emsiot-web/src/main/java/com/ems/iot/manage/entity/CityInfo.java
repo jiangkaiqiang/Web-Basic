@@ -1,9 +1,9 @@
 package com.ems.iot.manage.entity;
 /**
- * 城市实体类
- * @author jiangkaiqiang
- * @version 创建时间：2016-10-24 下午9:50:33 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:37:36  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class CityInfo {
 	private Integer ci_id;

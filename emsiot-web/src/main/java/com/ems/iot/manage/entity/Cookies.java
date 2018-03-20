@@ -1,11 +1,12 @@
 package com.ems.iot.manage.entity;
 
 import java.util.Date;
+
 /**
- * cookie 实体类
- * @author jiangkaiqiang
- * @version 创建时间：2016-10-21 下午2:08:26 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:37:43  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class Cookies {
 

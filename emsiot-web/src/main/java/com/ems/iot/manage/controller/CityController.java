@@ -5,10 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import com.ems.iot.manage.dao.CityMapper;
 import com.ems.iot.manage.dao.ProvinceMapper;
-
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:32:09  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 @Controller
 @RequestMapping(value = "/city")
 public class CityController {

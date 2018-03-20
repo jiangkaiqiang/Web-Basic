@@ -1,9 +1,10 @@
 package com.ems.iot.manage.entity;
+
 /**
- * 将所有图片存储在一起的实体类（暂未使用）
- * @author jiangkaiqiang
- * @version 创建时间：2016-10-21 下午2:07:38 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:37:48  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class FileData {
 	private int id;

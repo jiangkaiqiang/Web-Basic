@@ -7,6 +7,12 @@ import com.github.pagehelper.Page;
 
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:36:10  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public interface SysUserMapper {
 	int deleteByPrimaryKey(@Param("user_id") int user_id);
 	

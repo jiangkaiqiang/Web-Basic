@@ -1,5 +1,11 @@
 package com.ems.iot.manage.entity;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:38:25  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class UserRole {
     private Integer user_role_id;
 

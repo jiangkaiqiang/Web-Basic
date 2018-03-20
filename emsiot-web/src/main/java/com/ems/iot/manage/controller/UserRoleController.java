@@ -22,6 +22,12 @@ import com.ems.iot.manage.entity.SysUser;
 import com.ems.iot.manage.entity.UserRole;
 import com.ems.iot.manage.util.EncodeUtil;
 import com.github.pagehelper.Page;
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:33:22  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 @Controller
 @RequestMapping(value = "/userrole")
 public class UserRoleController extends BaseController {

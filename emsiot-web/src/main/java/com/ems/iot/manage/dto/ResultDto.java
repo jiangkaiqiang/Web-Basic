@@ -1,5 +1,11 @@
 package com.ems.iot.manage.dto;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:37:02  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class ResultDto {
 
 	private int status;

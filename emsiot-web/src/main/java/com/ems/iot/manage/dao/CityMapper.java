@@ -8,10 +8,10 @@ import com.ems.iot.manage.entity.ProvinceInfo;
 import java.util.List;
 
 /**
- * 
- * @author jiangkaiqiang
- * @version 创建时间：2016-11-7 下午1:56:40 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:33:37  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public interface CityMapper {
     List<CityInfo> findCitysByProvinceId(@Param("provinceID") int provinceID);

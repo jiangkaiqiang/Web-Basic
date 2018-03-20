@@ -14,7 +14,12 @@ import java.util.Date;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:46:54  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class Tools {
 	
 	/**

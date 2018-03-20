@@ -27,6 +27,12 @@ import com.ems.iot.manage.util.StringUtil;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:33:14  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 @Controller
 @RequestMapping(value = "/user")
 public class UserController extends BaseController {

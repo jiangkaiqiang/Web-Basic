@@ -6,8 +6,10 @@ import java.util.List;
 import com.github.pagehelper.PageInfo;
 
 /**
- * JSON格式返回数据载体
- * @author Half.Lee
+ * @author Barry
+ * @date 2018年3月20日下午3:45:58  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class ResponseData<T> {
 	@SuppressWarnings("rawtypes")

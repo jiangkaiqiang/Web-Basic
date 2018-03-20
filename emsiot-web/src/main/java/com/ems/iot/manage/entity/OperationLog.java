@@ -1,11 +1,12 @@
 package com.ems.iot.manage.entity;
 
 import java.util.Date;
+
 /**
- * 操作日志实体类
- * @author jiangkaiqiang
- * @version 创建时间：2017-6-2 下午2:52:20 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:38:04  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class OperationLog {
     private Integer id;

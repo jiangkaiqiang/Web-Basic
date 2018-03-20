@@ -2,6 +2,12 @@ package com.ems.iot.manage.dto;
 
 import com.ems.iot.manage.entity.SysUser;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:37:10  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 public class SysUserDto {
 	
 	private SysUser sysUser;

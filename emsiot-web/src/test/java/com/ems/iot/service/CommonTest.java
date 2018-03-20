@@ -1,10 +1,9 @@
 package com.ems.iot.service;
-
 /**
- * 
- * @author jiangkaiqiang
- * @version 创建时间：2017-5-16 下午10:08:03 
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:30:17  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class CommonTest {
 //we can test here

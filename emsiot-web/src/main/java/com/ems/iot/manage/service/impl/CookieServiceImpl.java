@@ -10,6 +10,12 @@ import com.ems.iot.manage.entity.Cookies;
 import com.ems.iot.manage.service.CookieService;
 import com.ems.iot.manage.util.EncodeUtil;
 
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:44:53  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
+ */
 @Service
 public class CookieServiceImpl implements CookieService {
 

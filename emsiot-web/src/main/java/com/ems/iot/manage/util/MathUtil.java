@@ -3,8 +3,10 @@ package com.ems.iot.manage.util;
 import java.math.BigDecimal;
 
 /**
- * Author: qiunian.sun
- * Date: qiunian.sun(2016-08-05 21:14)
+ * @author Barry
+ * @date 2018年3月20日下午3:45:42  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class MathUtil {
     //默认除法运算精度

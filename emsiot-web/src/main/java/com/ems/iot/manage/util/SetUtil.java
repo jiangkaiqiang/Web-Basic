@@ -4,10 +4,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/*
- * Copyright (C) DCIS 版权所有
- * 功能描述: Utils 工具类, 提供与集合相关的操作
- * Create on MaQiang 2016-6-25 09:28:36
+/**
+ * @author Barry
+ * @date 2018年3月20日下午3:46:22  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class SetUtil
 {

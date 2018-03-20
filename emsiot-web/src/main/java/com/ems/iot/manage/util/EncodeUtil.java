@@ -3,10 +3,10 @@ package com.ems.iot.manage.util;
 import java.security.MessageDigest;
 
 /**
- * blog www.micmiu.com
- *
- * @author Michael
- *
+ * @author Barry
+ * @date 2018年3月20日下午3:45:28  
+ * @version 1.0
+ * Copyright: Copyright (c) EMSIOT 2018
  */
 public class EncodeUtil {
 
